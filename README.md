@@ -16,3 +16,16 @@ Chocolate, Umber, Java,
 Burnt umber, Deep brown, Coffee bean,
 Coffee tree, Coffee berry
 </pre>
+
+## License & Conduct
+
+- MIT © Kent Warren
+- [Code of Conduct](./code-of-conduct.md)
+
+## Connect
+
+💻 [GitHub](https://github.com/WarrenMfg)
+
+💼 [LinkedIn](https://www.linkedin.com/in/theartofwarren)
+
+🌎 [Resume](https://kent-warren.bss.design)
