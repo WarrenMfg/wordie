@@ -1,0 +1,58 @@
+{
+  "name": "wordie",
+  "version": "1.0.0",
+  "description": "CLI dictionary and thesaurus using Datamuse",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && tsc --project tsconfig.build.json && chmod +x dist/index.js",
+    "clean": "rm -rf dist",
+    "tsc": "tsc --noemit",
+    "tsc:w": "tsc -w",
+    "lint:check": "eslint \"**/*.{ts,js}\"",
+    "lint:fix": "eslint --fix \"**/*.{ts,js}\"",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "update": "npx npm-check -u",
+    "prepush": "npm run lint:check -- --max-warnings 0 && npm run tsc && npm run prettier:check "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WarrenMfg/wordie.git"
+  },
+  "bin": {
+    "wordie": "dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "dictionary",
+    "thesaurus",
+    "datamuse"
+  ],
+  "author": "WarrenMfg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WarrenMfg/wordie/issues"
+  },
+  "homepage": "https://github.com/WarrenMfg/wordie#readme",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "chalk": "^5.1.2",
+    "log-symbols": "^5.1.0"
+  }
+}
