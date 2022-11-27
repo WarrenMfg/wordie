@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Definition, Synonym } from '../types/api.types';
 
-const http = axios.create({
+export const http = axios.create({
   baseURL: 'https://api.datamuse.com',
 });
 
