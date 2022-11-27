@@ -2,6 +2,10 @@
 
 CLI dictionary and thesaurus using [Datamuse](https://www.datamuse.com/).
 
+## Requirements
+
+Node v14+
+
 ## Usage with `npm`
 
 **Installation**
