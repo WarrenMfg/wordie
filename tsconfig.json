@@ -1,11 +1,10 @@
 {
-  "extends": "@tsconfig/node18/tsconfig.json",
+  "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "resolveJsonModule": true,
-    "outDir": "./dist",
-    "module": "ES2022"
+    "outDir": "./dist"
   }
 }
