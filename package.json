@@ -1,6 +1,6 @@
 {
   "name": "wordie",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI dictionary and thesaurus using Datamuse",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
