@@ -64,5 +64,8 @@
     "axios": "^1.2.0",
     "chalk": "^4.1.2",
     "log-symbols": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
