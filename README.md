@@ -2,9 +2,29 @@
 
 CLI dictionary and thesaurus using [Datamuse](https://www.datamuse.com/).
 
-<pre>
->>> npx wordie coffee
+## Usage with `npm`
 
+**Installation**
+
+`npm install -g wordie`
+
+**Example**
+
+`wordie coffee`
+
+## Usage with `npx`
+
+**Installation**
+
+No installation.
+
+**Example**
+
+`npx wordie coffee`
+
+## Output for both `npm` and `npx`
+
+<pre>
 <span style='color: limegreen; font-weight: bold;'>Definition of "Coffee"</span>
 <span style='font-style: italic'>n</span> A beverage consisting of an infusion of ground coffee beans
 <span style='font-style: italic'>n</span> Any of several small trees and shrubs native to the tropical old world yielding coffee beans
@@ -16,6 +36,8 @@ Chocolate, Umber, Java,
 Burnt umber, Deep brown, Coffee bean,
 Coffee tree, Coffee berry
 </pre>
+
+---
 
 ## License & Conduct
 
