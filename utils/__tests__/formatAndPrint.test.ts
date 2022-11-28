@@ -1,4 +1,4 @@
-import { Definition, Synonym } from '../../types/api.types';
+import { Definition, Synonym } from '../../api';
 import formatAndPrint from '../formatAndPrint';
 
 describe('formatAndPrint', () => {

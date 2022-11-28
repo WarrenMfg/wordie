@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import { Definition, Synonym } from '../types/api.types';
+import { Definition, Synonym } from '../api';
 import formatWord from './formatWord';
 
 /**

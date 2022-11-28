@@ -1,7 +1,6 @@
 import init from '../init';
 import alert from '../alert';
-import api from '../../api';
-import { Definition } from '../../types/api.types';
+import api, { Definition } from '../../api';
 
 describe('init', () => {
   let warning: jest.Mock;
