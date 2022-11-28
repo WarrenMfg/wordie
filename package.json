@@ -12,7 +12,7 @@
     "build": "npm run clean && tsc --project tsconfig.build.json && chmod +x dist/index.js",
     "clean": "rm -rf dist",
     "tsc": "tsc --noemit",
-    "tsc:w": "tsc -w",
+    "tsc:w": "tsc -w --project tsconfig.build.json",
     "lint:check": "eslint \"**/*.{ts,js}\"",
     "lint:fix": "eslint --fix \"**/*.{ts,js}\"",
     "prettier:check": "prettier --check .",
