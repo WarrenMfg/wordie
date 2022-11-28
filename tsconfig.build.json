@@ -1,4 +1,9 @@
 {
   "extends": "./tsconfig.json",
-  "exclude": ["./**/__tests__"]
+  "exclude": ["./**/__tests__", "jest.config.ts"],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "declarationMap": true
+  }
 }
