@@ -1,5 +1,19 @@
 import axios from 'axios';
-import { Definition, Synonym } from '../types/api.types';
+
+/**
+ * Types
+ */
+export interface Definition {
+  word: string;
+  score: number;
+  tags: string[];
+  defs?: string[];
+}
+
+export interface Synonym {
+  word: string;
+  score: number;
+}
 
 export const http = axios.create({
   baseURL: 'https://api.datamuse.com',
