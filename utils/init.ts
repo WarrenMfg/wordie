@@ -1,7 +1,6 @@
 import chalk from 'chalk';
 import api from '../api';
 import alert from './alert';
-import clear from './clear';
 import formatAndPrint from './formatAndPrint';
 import formatWord from './formatWord';
 
@@ -9,9 +8,6 @@ import formatWord from './formatWord';
  * Init
  */
 const init = async (arg?: string) => {
-  // clear console
-  clear();
-
   if (!arg) {
     alert.warning('Please enter a word.');
     return;
