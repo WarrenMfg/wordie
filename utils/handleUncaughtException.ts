@@ -8,7 +8,7 @@ const handleUncaughtException = () => {
 };
 
 export const uncaughtExceptionListener = (error: Error) => {
-  alert.error(`uncaughtException: ${error?.message}`);
+  alert.error(`uncaughtException: ${error.message}`);
 };
 
 export default handleUncaughtException;
