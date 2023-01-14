@@ -54,4 +54,4 @@ Coffee tree, Coffee berry
 
 💼 [LinkedIn](https://www.linkedin.com/in/theartofwarren)
 
-🌎 [Resume](https://kent-warren.bss.design)
+🌎 [Resume](https://www.kentwarren.dev)
